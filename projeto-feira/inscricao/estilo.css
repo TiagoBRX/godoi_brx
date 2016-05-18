@@ -1,0 +1,23 @@
+
+body{
+	background-color: gray;
+		
+}
+#container{
+	background-color: white;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	margin: 0 auto 0 auto;
+	background-color:  ;
+}
+#teste{
+	color: blue;
+}	
+.campotexto{
+	width: 70%;
+	background-color: white;
+}
