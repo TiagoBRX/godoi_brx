@@ -11,12 +11,13 @@
 		<h1 id="teste"> FORMULARIO DE INSCRIÇÃO </h1>
 		<form id="formulario" action="index.html" method="post"> 
 		
-			nome:<br /> 
-			<input class="campotexto" type="text" name="nome_do_usuario"/><br /> 
-			Códico do aluno:<br />
-			<input class="campotexto" type="text" name="códico do aluno"/><br /> 
-			Email:<br />
-			<input class="campotexto" type="text" name="email  "/><br />
+			<h3> Formulário de Inscrição </h3>
+			<form action="#">
+				<input placeholder="Nome" type="text" id="txt_name"> <br /> <br />
+				
+				<input placeholder="Código do aluno" type="text" id="txt_codigo" />
+				<input placeholder="E-mail" type="text" id="txt_email"> <br /> <br />
+				
 			
 			Centro de interesse1:<br />
 			<select name="centro1" >
@@ -32,17 +33,18 @@
 				<option value="teatro">Teatro</option>
 				<option value="danca">Dança</option>
 				<option value="programacao">Programacao</option>
+				
 			</select>
 			<br />
 			<INPUT TYPE="checkbox" NAME="Declaro este cliente, que não poderei trocar de centro interesse durante o bimeste" VALUE="op1"> Declaro este cliente, que nao poderei trocar de interesse durante o bimestre
 		</form>
 			 <br />
 			
-			 <span  class = "glyphicon glyphicon-ok"  = oculto-ária "true" > </ span> confirma
- </ button>
-  <span  class = "glyphicon glyphicon-remove"  = oculto-ária "true" > </ span> cancela
- </ button>
-		</form>
+					
+				<div class="row centralizado">
+				<button type="button" class="btn btn-danger btn"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancelar </button>
+				<button type="button" class="btn btn-success btn"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirmar </button>
+			</form>
 	</div>
 
 
