@@ -5,8 +5,8 @@ body{
 #container{
 	/*background-color: blue; */
 	background-color: white;
-	width: 40%; /*largura*/
-	height: 85%; /*altura*/
+	width: 50%; /*largura*/
+	height: 100%; /*altura*/
 	margin: 0px auto 0px auto;
 	border-color: black;
 	border-style: solid;
@@ -14,17 +14,18 @@ body{
 	text-align:center;
 }
 #teste{
-	color: blue;
+	color: blue;}
+	
 #txt_name{
-	border-width: 5px;
-	width: 90%; /*largura*/
+	border-width: 3px;
+	width: 100%; /*largura*/
 }
 #txt_codigo{
-	border-width: 2px;
-	width: 20%; /*largura*/
+	border-width: 3px;
+	width: 30%; /*largura*/
 }
 #txt_email{
-	border-width: 2px;
+	border-width: 3px;
 	width: 70%; /*largura*/
 }
 
