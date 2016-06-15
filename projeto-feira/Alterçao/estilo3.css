@@ -3,7 +3,7 @@ body{
 		
 }
 #container{
-	/*background-color: blue; */
+	/*background-color:blue; */
 	background-color: white;
 	width: 50%; /*largura*/
 	height: 90%; /*altura*/
@@ -14,14 +14,15 @@ body{
 	text-align:center;
 }
 #teste{
-	color: blue;}
+	color: black;}
 
 
 #txt_orientador{
-	border-width: 3px;
+
 	width: 50%; /*largura*/
 	background-color: ;
 }
 #txt_vagas{
-	border-width: 3px;
+	
 	width: 30%; /*largura*/
+}

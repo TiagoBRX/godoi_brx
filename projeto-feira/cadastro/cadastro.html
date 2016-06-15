@@ -2,62 +2,37 @@
 	<head>
 		<meta charset="utf-8"></meta>
 		<title> CADASTRO DO CI </title>
-		<style>
-		    body{
-	        background-color: blue;
-		
-                }
-            #container{
-	         background-color: white;
-	        width: 60%;
-	        height: 100%;
-	       text-align: center;
-	       border-color: black;
-	        border-width: 2px;
-	       border-style: solid;
-	      margin: 0 auto 0 auto;
-	      background-color: gray ;
-                       }
-       #teste{
-	  color: blue;
-              } 	
-      .campotexto{
-	   width: 70%;
-	   background-color: white;
-        </style>		
-	
+	<link href="estiloo.css" rel="stylesheet">
 	</head>
     <div id = "container">
 		<h1 id="teste"> CADASTRO DO CI </h1>
 		<form id="formulario" action="index.html" method="post"> 
-	
-	    Orientador:<br />
-		<input class="campotexto" type="text" name="orintador"/><br />
-	    Nome:<br />
-		<input class="campotexto" type="text" name="nome_do_usuario"/>
+		
+		
+		 <form action="#">
+	    
+		 <input placeholder="orientador" type="text" id="txt_orientador" />
+	  <input placeholder="nome" type="text" id="txt_nome_do_usuario"/><input placeholder="descriçao" type="text" name="txt_descrição"/>
 		<br /> 
-	    Descrição:<br />
-		<input class="campotexto" type="textarea" name="descrição"/>
-		<br /> 
-	    Horario de inicio:<br />
-		<input type="text" name="horario de inicio"/>
+		
+		
+	  <br/></form> </form> Horario de inicio
+		<input type="time" name="horario de inicio"/> 
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Horario de termino
+		<input type="time" name="horario de termino"/>
 		<br />
-	    Horario de termino:<br />
-		<input type="text" name="horario de termino"/>
-		<br />
-	    Data de inicio:<br />
-		<input type="date" name="data de inicio"/>
-		<br />
-	    Data de terminio:<br />
+	    Data de inicio<input type="date" name="data de inicio"/>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 Data de terminio
 		<input type="date" name="data de terminio"/>
 		<br />
-		
+		</br></br></br> 
 		<input type="submit" name="botao_confirmar" value="Confirmar"/> 
 			<input type="submit" name="botao_cancelar" value="Cancelar"/> 
 			
-			
-
-
+		</div>
+	
 </body>                                                                                                                                                                                                                                              			
 </html>
 		
