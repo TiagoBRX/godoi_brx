@@ -33,5 +33,20 @@ body{
 	width: 50%; /*largura*/
 	background-color: ;
 }
-
+#txt_btn{
+	font-family: arial;
+	font-size: 14px
+	text-transform: uppercase
+	font-weight: 700
+	border: none;
+	padding: 10px
+	cursor: pointer
+}
+	.btn-green{
+	background: green
+}
+	.btn-red{
+	background: red
+}
+	
 	

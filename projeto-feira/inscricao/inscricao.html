@@ -1,5 +1,5 @@
 <html>
-<head>
+            <head>
 <meta charset="utf-8"></meta>
 <title>INSCRIÇÃO NO CENTRO DE INTERESSE</title>
 
@@ -7,12 +7,13 @@
 
 <link href="bootstrap-3.3.6-dist/projeto-feira.css" rel="stylesheet" />
 <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-</head>
+          </head>
 <div id="container">
 	<h1 id="teste">FORMULARIO DE INSCRIÇÃO</h1>
 	<form id="formulario" action="index.html" method="post">
 
 		<h3>Formulário de Inscrição</h3>
+		
 		<form action="#">
 			<input placeholder="Nome" type="text" id="txt_name"><br /> 
 			<input placeholder="Código do aluno" type="text" id="txt_codigo" /><input placeholder="E-mail" type="text" id="txt_email"> <br /> <br />
@@ -21,21 +22,22 @@
        
 		   
 		  
-		   Centro de interesse1:
-			 <select name="centro1">
-			 <option value="musica">Música</option>
-			 <option value="teatro">Teatro</option>
-			 <option value="danca">Dança</option>
-			<option value="programacao">Programacao</option>
-			                                                 
-			  </select>  Centro de interesse2: <select name="centro2">
-         	   <option value="musica">Música</option>
-				 <option value="teatro">Teatro</option>
-			      <option value="danca">Dança</option>
-				 <option value="programacao">Programacao</option>
+		<select id="centro_um">
+					<option value="padrao"> Centro de Interesse 1 </option>
+					<option value="musica"> Música </option>
+					<option value="teatro"> Teatro </option>
+					<option value="programacao"> Programação </option>
+				</select>
+				<br /><br />
+				<select id="centro_dois">
+					<option value="padrao"> Centro de Interesse 2 </option>
+					<option value="musica"> Música </option>
+					<option value="teatro"> Teatro </option>
+					<option value="programacao"> Programação </option>
+				</select>
                   
                  
-			
+			<br /> 
 			
 			</select> <br /> <INPUT TYPE="checkbox"
 				
@@ -48,9 +50,9 @@
 
 		<div class="row centralizado">
 		
-			<button type="button" class="btn btn-danger">cancelar</button>
 			
-			<button type="button" class="btn btn-success">confirmar</button>
+		<button type="button" class="btn btn-red"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancelar </button>
+		<button type="button" class="btn btn-green"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirmar </button>
 	</form>
 </div>
 

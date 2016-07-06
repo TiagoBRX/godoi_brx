@@ -5,27 +5,31 @@
 		<link href="estilooo.css" rel="stylesheet">
 	</head>
 <body>
-    <div id="container">
-		<h1>Exclusão do CI</h1>
+    < <div id = "container">
+		<h1 id="teste"> EXCLUSÃO DO CI </h1>
+		<form id="formulario" action="index.html" method="post"> 
 		
 		<form action="index.html" method="post">
 			
-			<h4>Nome:</h4> <input type="text" id="nome_do_usuario"/><br />
+	<form action="#">
+	    
+		 <input placeholder="nome" type="text" id="txt_nome" />
+	  <input placeholder="orientador" type="text" id="txt_orientador"/>
 			
-			<h4>Horario de inicio:</h4>
-		<input type="text" name="horario de inicio"/>
+			<br/></form> </form> Horario de inicio
+		<input type="time" name="horario de inicio"/> 
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Horario de termino
+		<input type="time" name="horario de termino"/>
 		<br />
-			<h4>Horário de Termino: </h4> 
-			<input type="text" name="horario de termino"/>
 			
-			<h4>Data de inicio:</h4>
-		<input type="date" name="data de inicio"/>
-		<br />
-             <h4>Data de terminio:</h4>
+			Data de inicio<input type="date" name="data de inicio"/>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 Data de terminio
 		<input type="date" name="data de terminio"/>
 		<br />
 		
-	     <h4>Orientador: </h4>  <input type="text" id="Orientador"/><br />
+
 		 
 		 <h4>Motivo: </h4> <input type="text" id="Motivo"/><br />
 		
@@ -33,8 +37,8 @@
 		<br><form>
 
 		
-		<input type="submit" name="botao_Confirmar" value="Confirmar"/> 
-		<input type="submit" name="botao_cancelar" value="Cancelar"/> 
+		<button type="button" class="btn btn-red"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancelar </button>
+				<button type="button" class="btn btn-green"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirmar </button> 
 	</form>
      </div>	
 

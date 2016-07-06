@@ -1,20 +1,20 @@
 body{
-	background-color: gray;
+	background-color:;
 		
 }
 #container{
 	/*background-color:blue; */
-	background-color: white;
+	background-color: ;
 	width: 50%; /*largura*/
-	height: 70%; /*altura*/
-	margin: 0px auto 0px auto;
+	height: 90%; /*altura*/
+	margin: 5px auto 1px auto;
 	border-color: black;
 	border-style: solid;
-	border-width: 3px;
+	border-width: 1px;
 	text-align:center;
 }
 #teste{
-	color: black;}
+	color: blue;}
 
 
 #txt_orientador{
@@ -25,4 +25,20 @@ body{
 #txt_vagas{
 	
 	width: 30%; /*largura*/
+}
+
+#txt_btn{
+	font-family: arial;
+	font-size: 14px
+	text-transform: uppercase
+	font-weight: 700
+	border: none;
+	padding: 10px
+	cursor: pointer
+}
+	.btn-green{
+	background: green
+}
+	.btn-red{
+	background: red
 }

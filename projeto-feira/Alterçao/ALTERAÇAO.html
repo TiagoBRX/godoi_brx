@@ -3,7 +3,9 @@
 		<meta charset="utf-8"></meta>
 		<title>alteraçao do cI</title>
 		<link href="estilo3.css" rel="stylesheet">
+		
 	</head>
+	
 
 <body>
     <div id="container">
@@ -11,37 +13,38 @@
 		
 		<h4>Alterar centro de interesse</h4>
 		
-		<select id="centro" >
+		<select id="centro">
 	        <option value="opção1">Opção</option>
 			<option value="musica">Música</option>
 			<option value="radio">Radio</option>
 			<option value="danca">Dança</option>
 			<option value="programacao">Programacao</option>
 			<option value="futsal">futsal</option>
+			</select>
 			
-		</select>
-		
-		
-		<form action="index.html" method="post">
-			 
-			  
-			<br/></form> </form> Horario de inicio
+
+         <form action="#"><br>
+		 <input placeholder="orientador" type="text" id="txt_orientador" /> 
+		  <input placeholder="vagas" type="text" id="txt_vagas" />
+		  </form>
+       
+			    
+			</form> </form> Horario de inicio
 		<input type="time" name="horario de inicio"/> 
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		Horario de termino
 		<input type="time" name="horario de termino"/>
 		<br />
 	  
-		     <form action="#">
-		 <input placeholder="orientador" type="text" id="txt_orientador" /> 
-		  <input placeholder="vagas" type="text" id="txt_vagas" />
+		     
 		
 		<br><input type="checkbox" name="option1" value="Milk"> Declaro estar ciente de tal alteração.<br></br>
-		<br><form>
+		<br>
+		<form>
 
 		
-		<input type="submit" name="botao_Confirmar" value="Confirmar"/> 
-		<input type="submit" name="botao_cancelar" value="Cancelar"/> 
+		<button type="button" class="btn btn-red"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancelar </button>
+		<button type="button" class="btn btn-green"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirmar </button>
 	</form>
      </div>	
 

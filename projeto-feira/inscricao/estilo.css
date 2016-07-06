@@ -1,41 +1,52 @@
 body{
-	background-color: gray;
+	background-color: ;
 		
 }
 #container{
 	/*background-color: blue; */
-	background-color: white;
-	width: 52%; /*largura*/
-	height: 70%; /*altura*/
+	background-color:;
+	width: 50%; /*largura*/
+	height: 58%; /*altura*/
 	margin: 0px auto 0px auto;
 	border-color: black;
 	border-style: solid;
-	border-width: 5px;
+	border-width:  2px;
 	text-align:center;
 }
 #teste{
 	color: blue;}
 	
 #txt_name{
-	border-width: 3px;
-	width: 100%; /*largura*/
-	background-color: ;
+	border-width: px;
+	width: 90%; /*largura*/
+	background-color:  ;
 }
 #txt_codigo{
-	border-width: 3px;
+	border-width: px;
 	width: 30%; /*largura*/
 }
 #txt_email{
-	border-width: 3px;
-	width: 70%; /*largura*/
+	border-width: px;
+	width: 60%; /*largura*/
 }
 
 ntxt_centro de interesse1{
-	
-	
 	color: blue;}
-	
-	
+}
+#txt_btn{
+	font-family: arial;
+	font-size: 14px
+	text-transform: uppercase
+	font-weight: 700
+	border: none;
+	padding: 10px
+	cursor: pointer
+}
+	.btn-green{
+	background: green
+}
+	.btn-red{
+	background: red
 }
 	
 	
