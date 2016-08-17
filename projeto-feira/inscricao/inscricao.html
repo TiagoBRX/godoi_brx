@@ -1,62 +1,59 @@
 <html>
-            <head>
+<head>
 <meta charset="utf-8"></meta>
 <title>INSCRIÇÃO NO CENTRO DE INTERESSE</title>
 
 <link href="estilo.css" rel="stylesheet">
 
+<link href="projeto-feira/brxdoboost.css" rel="stylesheet" />
 
- <link href="projeto-feira/brxdoboost.css" rel="stylesheet" />
- <script src="brxdoboost/js/bootstrap.min.js"></script>
-          </head>
+</head>
 <div id="container">
 	<h1 id="teste">FORMULARIO DE INSCRIÇÃO</h1>
-	
+
 	<form id="formulario" action="salvar.php" role="form" method="post">
 
-		<h3>Formulário de Inscrição</h3>
-		
-		<form action="#">
-		
-			<input placeholder="Nome" type="text" id="txt_name"><br /> 
-			<input placeholder="Código do aluno" type="text" id="txt_codigo" /><input placeholder="E-mail" type="text" id="txt_email"> <br /> <br />
 
-          </br>
-       
-		   
-		  
-		<select id="centro_um">
-					<option value="padrao"> Centro de Interesse 1 </option>
-					<option value="musica"> Música </option>
-					<option value="teatro"> Teatro </option>
-					<option value="programacao"> Programação </option>
-				</select>
-				<br /><br />
-				<select id="centro_dois">
-					<option value="padrao"> Centro de Interesse 2 </option>
-					<option value="musica"> Música </option>
-					<option value="teatro"> Teatro </option>
-					<option value="programacao"> Programação </option>
-				</select>
-                  
-                 
-			<br /> 
-			
-			</select> <br /> <INPUT TYPE="checkbox"
-				
-				NAME="Declaro este cliente, que não poderei trocar de centro interesse durante o bimeste."
-				VALUE="op1"> Declaro este cliente, que nao poderei trocar de
-			interesse durante o bimestre.
-		</form>
-		
+		<h3>Formulário de Inscrição</h3>
+
+
+
+		<input placeholder="Nome" type="text" id="txt_name" name="nome"><br /> <input
+			placeholder="Código do aluno" type="text" id="txt_codigo" /><input
+			placeholder="E-mail" type="text" id="txt_email"> <br /> <br />
+
+		<br /> <select id="centro_um" >
+			<option value="padrao">Centro de Interesse 1</option>
+			<option value="musica">Música</option>
+			<option value="teatro">Teatro</option>
+			<option value="programacao">Programação</option>
+		</select> <br /> <br /> <select id="centro_dois">
+			<option value="padrao">Centro de Interesse 2</option>
+			<option value="musica">Música</option>
+			<option value="teatro">Teatro</option>
+			<option value="programacao">Programação</option>
+		</select> <br /> <br /> <INPUT TYPE="checkbox"
+			NAME="Declaro este cliente, que não poderei trocar de centro interesse durante o bimeste."
+			VALUE="op1"> Declaro este cliente, que nao poderei trocar de
+		interesse durante o bimestre.
+
+
 
 
 		<div class="row centralizado">
-		
-			
-		<button type="button" class="btn btn-red"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Cancelar </button>
-		<button type="button" class="btn btn-green"> <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Confirmar </button>
+
+
+			<button type="submit" class="btn btn-red">
+				<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				Cancelar
+			</button>
+			<button type="submit" class="btn btn-green">
+				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+				Confirmar
+			</button>
+		</div>
 	</form>
+
 </div>
 
 
